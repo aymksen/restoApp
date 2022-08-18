@@ -1,0 +1,142 @@
+.container{
+    background-color: #161616;
+    /* background-color:#d88509; */
+    height: 100px;
+    padding: 0px 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+
+.item{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.item:nth-child(2){
+    flex:3; 
+    
+    
+}
+.item:last-child{
+    flex:1;
+    justify-content: flex-end;
+}
+.callButton{
+    background-color:white;
+    border-radius: 50%;
+    padding:8px ;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.callButton:hover{
+    transition: all 0.3s;
+    filter: invert(22%) sepia(8%) saturate(799%) hue-rotate(34deg) brightness(103%) contrast(105%);
+}
+.texts{
+ margin-left: 10px;
+ color: #d37f00;
+ cursor: pointer;
+}
+.texts:first-child{
+    font-size: 15px;
+    font-weight: 500;
+}
+.texts:last-child{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.list{
+    
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color:white;
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+}
+.listItem{
+    cursor: pointer;
+    margin-left:3vw;
+    margin-right:3vw;
+    font-weight: 500;
+}
+.whiten{
+    filter: grayscale(100%) brightness(2);
+    transition: linear 0.3s;
+}
+.whiten:hover{
+    transition:0.3s;
+    filter:none;
+}
+.cart{
+    position: relative;
+    cursor: pointer; 
+    
+}
+.counter{
+    position: absolute;
+    top:-10px;
+    right:-10px;
+    background-color: #ffffff;
+    color:#530048;
+    padding-top: 2px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    font-weight: 500;
+    transition: linear 0.3s;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -8px;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .logohover{
+    transition: linear 0.4s;
+    filter: grayscale(100%) brightness(2);
+  }
+  .logohover:hover{
+    filter: grayscale(0) brightness(1);
+
+    transition:  0.4s;
+  
+  }
+
+.cart1{
+    filter: grayscale(100%) brightness(2);
+    transition: linear 0.2s;
+}
+.cart1:hover{
+    filter: grayscale(0) brightness(1);
+    transition: linear 0.2s;
+}
+

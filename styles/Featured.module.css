@@ -1,0 +1,32 @@
+.container{
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background: linear-gradient(to top, #550077, #161616);
+
+    /* background: linear-gradient(to bottom, #d88509, rgba(180, 62, 41, 0.952)),
+    url(https://grainy-gradients.vercel.app/noise.svg); */
+}
+
+.arrowContainer{
+    position: absolute;
+    width: 10%;
+    height:20%;
+    filter: brightness(0) invert(1);
+    top:0;
+    bottom: 0;
+    margin:auto;
+    cursor: pointer;
+    z-index: 100;
+}
+.wrapper{
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    transition: all 1s ease-in-out;
+}
+.imgContainer{
+    width:100vw;
+    height: 100%;
+    position:relative;
+    z-index: 1;
+}
