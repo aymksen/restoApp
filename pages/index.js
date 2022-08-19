@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.container}>
        
       <Head>
-        <title>Ô'Mexico</title>
+        <title>Ô&apos;Mexico</title>
         <meta name="description" content="The Best Tacos in the universe " />
         <link rel="icon" href="/favicon8.png" />
       </Head>
