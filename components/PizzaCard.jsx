@@ -4,7 +4,7 @@ import Image from 'next/dist/client/image'
 function PizzaCard() {
   return (
     <div className={styles.container}>
-      <Image src="/img/iconT4.png" alt="" width="500" height="500"/>
+      <Image src="/img/log2.png" alt="" width="500" height="500"/>
       
     </div>
   )

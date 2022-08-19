@@ -1,7 +1,6 @@
 import styles from "../styles/Navbar.module.css"
 import Image from "next/image"
 
-const prefix = '';
 const Navbar = () => {
   return (
     <div className={styles.container}>
@@ -19,7 +18,7 @@ const Navbar = () => {
             <li className={`${styles["listItem"]} ${styles["hover-underline-animation"]}`}>Homepage</li>
             <li className={`${styles["listItem"]} ${styles["hover-underline-animation"]}`}>Products</li>
             <li className={`${styles["listItem"]} ${styles["logohover"]}`}>
-            <Image src={prefix + "/img/iconT5.png"} alt="" width="96" height="96" />
+            <Image src="/img/log2.png" alt="" width="96" height="96" />
             </li>
             <li className={`${styles["listItem"]} ${styles["hover-underline-animation"]}`}>Menu</li>  
             <li className={`${styles["listItem"]} ${styles["hover-underline-animation"]}`}>Contact</li>
