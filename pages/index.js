@@ -14,6 +14,7 @@ export default function Home() {
       <Head>
         <title>Ô&apos;Mexico</title>
         <meta name="description" content="The Best Tacos in the universe " />
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon8.png`} />
         <link rel="icon" href="/favicon8.png" />
       </Head>
         <Featured />
