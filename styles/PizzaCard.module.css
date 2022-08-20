@@ -8,32 +8,33 @@
     justify-content: center;
     padding: 20px 40px;
     height: 20vw;
-    background-color: rgb(212, 212, 212);
+    background-color: rgba(231, 231, 231, 0.404);
     margin: 1%;
     border-radius: 50px;
     transition: all 0.5s;
-   
+    
 }
 
 .container:hover{
-    background-color: rgb(180, 180, 180);
+    background-color: rgba(216, 192, 255, 0.164);
     transition: all 0.5s;
     cursor: pointer;
+    color:white;
 }
 
 .title{
-    font-size: 18px;
-    font-weight:500 ;
-    color: rgb(129, 0, 0);
+    font-size: 20px;
+    font-weight:700 ;
+    color: rgb(247, 247, 247);
 }
 
 .price{
     font-size: 18px;
-    font-weight:500 ;
+    font-weight:700 ;
     color: rgb(255, 0, 0);
 }
 
 .desc{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(207, 207, 207);
 }

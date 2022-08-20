@@ -3,11 +3,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(to bottom, #550077, #161616 ,#161616);
 }
 
 .desc{
     font-size: 24px;
-    color:rgb(92, 92, 92);
+    color:rgb(212, 212, 212);
     width: 70%;
 }
 .wrapper{
@@ -17,4 +18,7 @@
     justify-content: center;
     flex-wrap: wrap;
     
+}
+.title{
+    color:rgb(255, 255, 255);
 }
