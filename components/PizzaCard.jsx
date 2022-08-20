@@ -4,8 +4,10 @@ import Image from 'next/dist/client/image'
 function PizzaCard() {
   return (
     <div className={styles.container}>
-      <Image src="/img/log2.png" alt="" width="500" height="500"/>
-      <h1> className={styles.container}</h1>
+      <Image  src="/img/mozza.png" alt="" width="500" height="500" objectFit="contain"/>
+      <h1 className={styles.title}>Viande Hachee</h1>
+      <span className={styles.price}>35.00 DH</span>
+      <p className={styles.desc}>Lorem Ipsum is simply dummy text</p>
     </div>
   )
 }

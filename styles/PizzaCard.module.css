@@ -1,6 +1,6 @@
 .container{
     width: 30%;
-    color:blue;
+    color:rgb(255, 0, 0);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -11,8 +11,29 @@
     background-color: rgb(212, 212, 212);
     margin: 1%;
     border-radius: 50px;
+    transition: all 0.5s;
    
 }
+
 .container:hover{
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(180, 180, 180);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 18px;
+    font-weight:500 ;
+    color: rgb(129, 0, 0);
+}
+
+.price{
+    font-size: 18px;
+    font-weight:500 ;
+    color: rgb(255, 0, 0);
+}
+
+.desc{
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
