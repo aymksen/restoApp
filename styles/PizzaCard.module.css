@@ -10,6 +10,7 @@
     height: 20vw;
     background-color: rgb(212, 212, 212);
     margin: 1%;
+    border-radius: 50px;
    
 }
 .container:hover{
