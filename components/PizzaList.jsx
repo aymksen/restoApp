@@ -5,8 +5,9 @@ import PizzaCard from './PizzaCard'
 function PizzaList() {
   return (
     <div className={styles.container}>
-        <h1 className={styles.title} >BEST TACOS IN THE CITY</h1>
-        <p className={styles.desc}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <h1 className={styles.title} >Tacos 🌯 ? C'est notre Spécialité 👨‍🍳</h1>
+        <p className={styles.desc}>Vous pourrez créer votre propre large choix Chez 👑 Ô'Mexico🔱 🤍
+Alors vous choisissez quoi ?🤔</p>
     <div className={styles.wrapper}>
         <PizzaCard/>
         <PizzaCard/>
