@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "../styles/product.module.css";
+import styles from "../../styles/product.module.css";
+import Image from 'next/dist/client/image'
 
 const pizza = {
   id: 1,
