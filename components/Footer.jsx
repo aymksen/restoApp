@@ -8,7 +8,7 @@ const Footer = () => {
         <div className={styles.card}>
           <h2 className={styles.title}>📍 Où Trouver Nous</h2>
           <p className={styles.text}>
-            🍕 Ô'mexico
+            🍕 Ô&apos;mexico
             <br />
             🍔 Av. Jamila Bouhrid
             <br />
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         <div className={styles.card}>
-          <h2 className={styles.title}>⏲ Heures D'ouverture</h2>
+          <h2 className={styles.title}>⏲ Heures D&apos;ouverture</h2>
           <p className={styles.text} >
           Lundi <span >11AM–1AM </span>
             <br />Mardi <span>11AM–1AM </span>
