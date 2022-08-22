@@ -3,17 +3,19 @@
     height: auto;
     display: flex;
     padding: 50px;
+    flex-wrap: wrap;
 }
 .item{
     position: relative;
     flex:1;
     background-color: rgb(36, 36, 36);
-    flex-wrap: wrap;
+    
     display: flex;
+    flex-wrap: wrap;
 }
 
 .map {
-    margin-top: 50px;
+    
     height: 400px;
     width: 400px;
     overflow: hidden;
@@ -24,20 +26,26 @@
   
  
   .card{
+    display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
-    flex:0.9;
-    margin-top: 50px;
+    flex:1;
   }
   .card:first-child{
     flex:0.7;
   }
+  .card:last-child{
+    flex:0.7;
+  }
   .title{
+    margin-left: 20px;
     color:white;
     font-size: 30px;
     white-space: nowrap;
+    
   }
   .text{
+    
    font-weight: 200;
     margin-top: 30px;
     margin-left: 30px;

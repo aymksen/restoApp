@@ -15,7 +15,7 @@ const Footer = () => {
             🍟 24000 El Jadida
           </p>
         </div>
-        <div className={styles.item}>
+        <div className={styles.card}>
         <div className={styles.map}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3336.7405834530173!2d-8.509899!3d33.247099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda91d3d8d2cf40b%3A0xf289f1cc823da5aa!2sO%20Mexico!5e0!3m2!1sen!2sma!4v1661031655653!5m2!1sen!2sma" loading="lazy"
@@ -27,6 +27,8 @@ const Footer = () => {
           ></iframe>
         </div>
       </div>
+      </div>
+      <div className={styles.item}>
         <div className={styles.card}>
 
           

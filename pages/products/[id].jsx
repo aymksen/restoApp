@@ -15,7 +15,7 @@ function product() {
     <div className={styles.container}>
       <div className={styles.left}>
         <div className={styles.imgcontainer}>
-        <Image  src={pizza.img} alt="" width="500" height="500" objectFit="contain"/>
+        <Image  src={pizza.img} alt="" width="500" height="500" objectFit="contain" layout="fill"/>
         </div>
       </div>
       <div className={styles.right}></div>
