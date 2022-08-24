@@ -38,13 +38,13 @@ const Footer = () => {
         <div className={styles.card}>
           <h2 className={styles.title}>⏲ Heures D&apos;ouverture</h2>
           <p className={styles.text} >
-          Lundi <span >11AM–1AM </span>
+                  Lundi <span >11AM–1AM </span>
             <br />Mardi <span>11AM–1AM </span>
             <br />Mercredi <span>11AM–1AM </span>
             <br />Jeudi <span>11AM–1AM </span>
             <br />Vendredi <span>11AM–1AM</span>
             <br />Samedi <span>11AM–1AM</span>
-            <br />Dimanche<span> 11AM–1AM</span>
+            <br />Dimanche <span>11AM–1AM</span>
           </p>
         </div>
       </div>
