@@ -17,7 +17,7 @@ const pizza = {
   desc: "Best mexico desc",
 };
 
-function product() {
+function Product() {
   const [size, setSize] = useState(0);
   const [menu, setMenu] = useState(0);
 
@@ -107,4 +107,4 @@ function product() {
   );
 }
 
-export default product;
+export default Product;
