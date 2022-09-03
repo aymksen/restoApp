@@ -6,7 +6,7 @@ import { useState } from "react";
 function Featured() {
   const [index, setIndex] = useState(0);
   const images = [
-    "/img/featured6.png",
+    "/img/featured11.png",
     "/img/featured.jpg",
     "/img/featured1.jpg",
 ];

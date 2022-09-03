@@ -99,7 +99,7 @@ function Product() {
         </div>
           <div className={styles.add}>
             <input type="number" defaultValue={1} className={styles.quantity}></input>
-            <button className={styles.button}>Add to cart</button>
+            <button className={styles.button}>ADD TO CART</button>
           </div>
 
       </div>

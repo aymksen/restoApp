@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(43, 43, 43);
     height: auto;
     display: flex;
     padding: 50px;
@@ -8,7 +8,7 @@
 .item{
     position: relative;
     flex:1;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(43, 43, 43);
     
     display: flex;
     flex-wrap: wrap;

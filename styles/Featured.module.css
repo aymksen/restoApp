@@ -1,17 +1,15 @@
 .container{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
     overflow: hidden;
-    background: linear-gradient(to top, #550077, #161616);
+    background: #F5F5F7
     
-    /* background: linear-gradient(to bottom, #d88509, rgba(180, 62, 41, 0.952)),
-    url(https://grainy-gradients.vercel.app/noise.svg); */
 }
 
 .arrowContainer{
     position: absolute;
     width: 10%;
     height:20%;
-    filter: brightness(0) invert(1);
+    filter: invert(0.08);
     top:0;
     bottom: 0;
     margin:auto;

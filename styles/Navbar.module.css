@@ -1,8 +1,10 @@
 .container{
-    background-color: #161616;
+    background-color: #000000e1;
+    backdrop-filter: blur(10px);
     /* background-color:#d88509; */
-    height: 100px;
-    padding: 0px 50px ;
+    height: 60px;
+    padding: 0px 30px ;
+    padding-top: 4px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,29 +28,37 @@
     justify-content: flex-end;
 }
 .callButton{
-    background-color:white;
+    background-color:rgb(235, 235, 235);
     border-radius: 50%;
     padding:8px ;
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
     transition: all 0.4s;
 }
 .callButton:hover{
     transition: all 0.3s;
-    filter: invert(22%) sepia(8%) saturate(799%) hue-rotate(34deg) brightness(103%) contrast(105%);
+    background-color:rgb(255, 255, 255);
 }
 .texts{
- margin-left: 10px;
- color: #d37f00;
+ margin-left: 6px;
+ color: #ececec;
  cursor: pointer;
 }
+.img{
+    filter: brightness(92%) ;
+    transition: all 0.3s;
+}
+.img:hover{
+    filter: brightness(100%) ;
+    transition: all 0.3s;
+}
 .texts:first-child{
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 400;
 }
 .texts:last-child{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     
 }
@@ -58,24 +68,20 @@
     display: flex;
     align-items: center;
     list-style: none;
-    color:white;
-    font-size: 20px;
+    color:rgb(224, 224, 224);
+    font-size: 15px;
     justify-content: center;
     margin: auto;
 }
+
 .listItem{
     cursor: pointer;
-    margin-left:3vw;
-    margin-right:3vw;
+    margin-left:2.5vw;
+    margin-right:2.5vw;
     font-weight: 500;
 }
-.whiten{
-    filter: grayscale(100%) brightness(2);
-    transition: linear 0.3s;
-}
-.whiten:hover{
-    transition:0.3s;
-    filter:none;
+.listItem:hover{
+    color:white;
 }
 .cart{
     position: relative;
@@ -84,59 +90,26 @@
 }
 .counter{
     position: absolute;
-    top:-10px;
+    top:-7px;
     right:-10px;
     background-color: #ffffff;
-    color:#530048;
-    padding-top: 2px;
+    color:#000000;
+    padding-top: 1px;
     border-radius: 50%;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     text-align: center;
     font-weight: 500;
+    font-size: 14px;
     transition: linear 0.3s;
 }
 
-.hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    color: white;
-  }
-  
-  .hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: -8px;
-    left: 0;
-    background-color: white;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .hover-underline-animation:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  .logohover{
-    transition: linear 0.4s;
-    filter: grayscale(100%) brightness(2);
-  }
-  .logohover:hover{
-    filter: grayscale(0) brightness(1);
-
-    transition:  0.4s;
-  
-  }
-
 .cart1{
-    filter: grayscale(100%) brightness(2);
+    filter:  brightness(90%);
     transition: linear 0.2s;
 }
 .cart1:hover{
-    filter: grayscale(0) brightness(1);
+    filter:  brightness(100%);
     transition: linear 0.2s;
 }
 

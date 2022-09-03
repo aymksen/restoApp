@@ -3,14 +3,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(to bottom, #550077, #161616 ,#161616);
+    background: #F5F5F7
 }
 
 .desc{
-    font-size: 24px;
-    color:rgb(212, 212, 212);
-    width: 70%;
+    font-size: 25px;
+    font-weight:600 ;
+    
+    color:rgb(95, 95, 95);
+    width: 50%;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.desc1{
+    color:#4C5CB0;
 }
 .wrapper{
     width: 80%;
@@ -21,5 +28,11 @@
     
 }
 .title{
-    color:rgb(255, 255, 255);
+    font-size: 46px;
+    font-weight:700 ;
+    font-style: italic;
+    width: 80%;
+    text-align: center;
+    color:rgb(10, 10, 10);
+    font-family: 'Inter','Poppins', sans-serif;
 }
