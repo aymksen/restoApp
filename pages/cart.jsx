@@ -18,7 +18,7 @@ function Cart() {
                 <tr>
                     <td>
                         <div className={styles.imgContainer}>
-                            <Image src="/img/mozza.png" layout='fill' alt="" objectFit='cover'/>
+                            <Image src="/img/mozza.png" layout='fill' alt="" objectfit='cover' />
                         </div>
                     </td>
                     <td> 

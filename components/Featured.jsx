@@ -6,9 +6,10 @@ import { useState } from "react";
 function Featured() {
   const [index, setIndex] = useState(0);
   const images = [
-    "/img/featured11.png",
-    "/img/featured.jpg",
+    "/img/featured15.png",
+    "/img/featured16.jpg",
     "/img/featured1.jpg",
+    
 ];
 const handleArrow = (direction) => {
   if(direction =="l"){
@@ -23,7 +24,7 @@ const handleArrow = (direction) => {
   return (
 
     <div className={styles.container}>
-      <div className={styles.arrowContainer} style={{left:0}} objectFit="contain" onClick={()=>handleArrow("l")}>
+      <div className={styles.arrowContainer} style={{left:0}} objectfit="contain" onClick={()=>handleArrow("l")}>
         <Image src="/img/arrowl.png" alt="" layout='fill'/>
         </div>
         <div className={styles.wrapper} style={{transform:`translateX(${-100*index}vw)`}}>
@@ -37,7 +38,7 @@ const handleArrow = (direction) => {
   
         
         </div>
-        <div className={styles.arrowContainer} style={{right:0}} objectFit="contain" onClick={()=>handleArrow("r")}>
+        <div className={styles.arrowContainer} style={{right:0}} objectfit="contain" onClick={()=>handleArrow("r")}>
         <Image src="/img/arrowr.png" alt="" layout='fill'/>
         </div>
     </div>
