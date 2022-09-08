@@ -58,8 +58,9 @@
     display:block;float:right;width:30%;margin-left:10px;
   }
   .img{
+    min-width: 500px;
     
-    height: 500px;
-    width: 500px;
+    height: 12vw;
+    width: 10vw;
     border-radius:30px ;
   }

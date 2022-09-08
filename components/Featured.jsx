@@ -8,7 +8,7 @@ function Featured() {
   const images = [
     "/img/featured15.png",
     "/img/featured16.png",
-    "/img/featured1.jpg",
+    "/img/featured19.png",
     
 ];
 const handleArrow = (direction) => {
@@ -31,7 +31,7 @@ const handleArrow = (direction) => {
         
           {images.map((img, i)=>(
             <div className={styles.imgContainer} key={i}>
-            <Image src={img}  alt="" layout='fill' objectFit="contain"/>
+            <Image src={img}  alt="" layout='fill' loading="eager" objectFit="contain"/>
             </div>
           ))}
             
